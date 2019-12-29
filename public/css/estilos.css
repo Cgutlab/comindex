@@ -1,0 +1,544 @@
+*
+
+{
+
+	font-family: 'Titillium Web', sans-serif;
+
+}
+
+ body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+      
+
+a
+
+{
+outline: none;
+}
+
+.center
+
+{
+
+	display: flex;
+
+	justify-content: center;
+
+	align-items: center;
+}
+
+
+/* Header */
+
+
+
+.btn:hover, .btn-large:hover {
+background-color: #3F51B3;
+}
+
+.btn:focus, .btn-large:focus, .btn-floating:focus
+{
+	background-color: #3F51B8;
+}
+
+.nav
+
+{
+background-color: white;
+font-size: 15px;
+background-color: #EEEEEE;
+}
+
+.modal
+{
+	max-height: 90%;
+	top:5%!important;
+}
+
+
+.nav .container
+
+{
+
+	width: 80%;
+
+}
+
+
+.activoup
+{
+
+	color: #2F3BA2!important;
+}
+
+.activoup a
+{
+	color: #FFF!important;
+}
+
+.active
+
+{
+
+color:#2F3BA2 !important;
+
+
+
+}.activo
+
+{
+
+color:#2F3BA2 !important;
+
+}
+
+
+
+.nav ul
+
+{
+
+display: inline-flex;
+
+justify-content: space-between;
+
+align-items: center;
+
+margin:0;
+}
+
+.nav ul li
+
+{
+	padding: 0 10px;
+}
+
+.nav ul li:last-child
+{
+	padding:0;
+	margin-left: 10px;
+}
+
+.nav ul li a
+
+{color: #8C8C8C;font-weight: bold;}
+
+.header
+
+{background-color: white;padding: 5px 4.3%;height: 145px;border-bottom: 1px solid #DCDCDC;}
+
+
+
+.header ul
+
+{padding: 33px 0;}
+
+
+.header a
+{
+	color: #595959;
+	font-size:  17px;
+	font-weight: 600;
+	border-bottom: 3px solid #FFFFFF;
+}
+
+.header li
+{
+
+	
+}
+
+.header .brand-logo
+{
+	border-bottom: 0;
+	max-height: 125px;
+	margin-top: 5px;
+}
+
+.header .brand-logo:hover
+{
+	border-bottom: 0;
+}
+
+.header .container
+
+{
+
+	width: 90%;
+
+}
+
+
+
+.header a:hover
+
+{
+background-color: inherit;
+color:#2F3BA2!important;
+}
+
+
+
+nav .brand-logo
+
+{
+padding: 15px;
+}
+
+
+
+.buscar
+
+{
+color:white;
+display: flex;
+align-items:center;
+padding: 0 4px;
+}
+
+.buscar a 
+
+{
+
+	color:#FFF;
+
+}
+
+
+.slider
+{
+	height: 400px!important;
+
+}
+
+.slider img
+{
+	max-height: 400px!important;
+}
+
+.sociales-up
+
+{
+
+	line-height: 0;
+	margin-right: 10px;
+}
+
+.buscador
+{
+	position: relative;
+	border-bottom: 1px solid #DDDDDD;
+	border-left: 1px solid #DDDDDD;
+	border-right: 1px solid #DDDDDD;
+	width: 85%;
+}
+
+.buscador > div
+{
+	padding: 1.5rem 4rem 0.75rem;
+}
+
+.buscador i
+{
+	position: absolute;
+	right: 1.2%;
+	top: 46%;
+}
+
+.centrado
+
+{
+display: flex;
+justify-content: center;
+align-items:center;
+}
+
+.agrupar
+
+{
+
+	display: flex;
+
+	padding: 5px 20px;
+
+	border-right:1px solid #6E6E6E;
+
+
+
+}
+
+
+
+.enlaces
+
+{
+
+	width: 100%;
+
+	height: 100%;
+
+}
+
+
+
+.agrupar i
+
+{
+
+	padding-right: 10px;
+
+	padding-top: 4px;
+
+}
+
+
+
+/* Footer */
+
+
+
+footer
+
+{
+background-color: #595959;
+background-repeat: no-repeat;
+}
+
+
+
+footer .container
+
+{
+
+	width: 90%;
+
+}
+
+footer .container>.row
+
+{
+
+margin-bottom: 0;
+
+padding: 45px 0 8px;
+}
+
+
+
+footer a
+
+{
+
+	color:#FFF;
+
+	font-size: 15px;
+
+}
+
+
+
+footer h6
+
+{
+
+	margin-bottom: 20px;
+
+}
+
+
+
+.sitemap
+
+{
+line-height: 1;
+font-weight: lighter;
+}
+
+
+
+.sitemap li
+
+{
+
+	margin-bottom: 20px;
+
+}
+
+
+
+.social
+
+{
+
+	margin-right: 20px;
+
+}
+
+
+
+.hover:hover
+
+{
+
+	color:#F68121;
+
+}
+
+
+/* Sliders */
+
+ 
+
+.slider .indicators
+
+{
+z-index: 9;
+bottom: 12px;
+}
+
+
+
+.slider .indicators .indicator-item.active
+
+{background-color: #FFFFFF;opacity: 0.8;width: 15px;height: 15;}
+
+
+
+.caption
+
+{left: 10%!important;top: 20%!important;width: 45%!important;}
+
+
+
+.slider .slides li .caption {
+
+	width: 50%;
+
+	left: 25%;
+
+}
+
+
+
+.busqueda
+
+{
+
+    background-color: #FFF;
+	border: 1px solid #DDD;
+}
+
+
+
+.busqueda .input-field label
+
+{
+
+	top: -23%;
+
+}
+
+#busqueda::placeholder
+{
+	color:#3F51B3;
+	font-size: 20px;
+}
+
+.banner
+{
+	position: relative;
+}
+
+.banner img
+{
+	width:100%;	
+}
+
+.banner .texto
+{
+	position: absolute;
+	bottom: 15%;
+	left: 15%;
+}
+
+@media only screen and (max-width: 600px) 
+
+{
+
+    .slider .slides li .caption 
+
+    {
+
+	width: 90%;
+
+	left: 5%;
+
+	}
+
+
+
+    .caption h2
+
+    {
+
+		font-size: 24px; 
+
+    }
+
+    .caption h4
+
+    {
+
+		font-size: 42px;
+
+    }
+
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) 
+
+{
+
+    .slider .slides li .caption 
+
+    {
+
+	width: 60%;
+
+	left: 20%;
+
+	}
+
+
+
+    .caption h2
+
+    {
+
+		font-size: 24px; 
+
+    }
+
+    .caption h4
+
+    {
+
+		font-size: 42px;
+
+    }	
+
+    .absolute
+    {
+    	position: absolute;
+    }
+
+}

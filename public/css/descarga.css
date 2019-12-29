@@ -1,0 +1,53 @@
+main.descarga .imagen
+{
+	border: 1px solid #DDD;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-height: 212px;
+	position: relative;
+}
+
+main.descarga .imagen img:first-child
+{
+	max-height: 211px;
+}
+
+main.descarga .texto
+{
+	height: 60px;
+}
+
+main.descarga .botones
+{
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+
+}
+
+main.descarga .botones span i
+{
+	padding: 3px 10px;
+	color: white;
+}
+
+main.descarga .botones span:first-child
+{
+	background-color: #595959;
+	margin-right: 5px;
+}
+
+main.descarga .botones span:last-child
+{
+	background-color: #009688;
+	margin-left: 5px;
+}
+
+main.descarga .esquina
+{
+	position: absolute;
+	bottom: -2px;
+	right: -1px;
+}

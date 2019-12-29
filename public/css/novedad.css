@@ -1,0 +1,21 @@
+main.novedades .btn-floating
+{
+	background-color: #009687;
+}
+
+main.novedades .card .card-content
+{
+	height: 110px;
+	overflow: hidden;
+	padding-bottom: 30px;
+}
+
+main.novedades .card .card-title
+{
+	margin: 0!important;
+}
+
+main.novedad img
+{
+	width: 100%;
+}

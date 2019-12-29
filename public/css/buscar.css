@@ -1,0 +1,59 @@
+main.buscar .card
+{
+	border-bottom: 1px solid #3F51B3;
+}
+
+main.buscar .card-image
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 240px;
+	border: 1px solid #DDDDDD;
+	position: relative;
+	overflow: hidden;
+}
+
+main.buscar .card-image img
+{
+	max-width: 75%;
+}
+
+main.buscar .card-content
+{
+	padding: 0!important;
+    height: 60px;
+    color: #494949;
+    display: grid;
+}
+
+.efecto
+	{
+    position:absolute;
+    opacity: 0;
+    background-color: transparent;
+    width: 100%;
+    height: 80%;
+    z-index: 6;
+ }    
+
+.card:hover .efecto
+	{
+    opacity: 1;
+    transition: 1s;
+	}
+
+.central
+	{
+    display: inline-block;
+    position: absolute;
+    background-color:#009687;
+  	color: #FFF;
+    font-weight: bold;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform:translate(-50%,-50%);
+    line-height:0;
+    padding:10px;
+	}

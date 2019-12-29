@@ -1,0 +1,12 @@
+main.empresa .container
+{
+	width: 85%;
+	line-height: 1.4;
+}
+
+main.empresa .caption
+{
+	padding: 1.75rem;
+	border-left: 6px solid #009688;
+	width: 35%!important;
+}
